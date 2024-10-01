@@ -1,0 +1,14 @@
+# created by virtualenv automatically
+# Ignore the virtual environment folder
+.venv/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore IDE-related files
+.idea/
+
+# Ignore log files
+*.log
+
