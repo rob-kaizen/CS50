@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Image Search</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+  </head>
+  <body>
+    <div class="nav-links">
+      <a href="index.html">Google Search</a>
+    </div>
+    <div class="search-container">
+      <form action="https://www.google.com/search" method="get">
+        <label for="search-bar" class="visually-hidden">Search Images:</label>
+        <input type="text" id="search-bar" name="q" />
+        <!-- Hidden fields to specify image search -->
+        <input type="hidden" name="tbm" value="isch" />
+        <input type="hidden" name="sclient" value="img" />
+        <input type="submit" value="Image Search" />
+      </form>
+    </div>
+  </body>
+</html>
